@@ -5,78 +5,574 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;500;700;900&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;800&display=swap" rel="stylesheet"> 
     <title>Document</title>
 </head>
 <body>
 
-    <!-- <article class="navbar">
-        <section class="wrapper">
-            <section class="logo">
-                <p class="logo__text logo__text_fs-3">ax<span class="logo__text_it">it</span></p>
+    <main class="main">
+        <header class="header">
+            <section class="header__bg__nav">
+                <nav class="header__nav">
+                    <section class="header__nav__logo">
+                        <p class="logo__text logo__text_fs-3">ax<span class="logo__text_it">it</span></p>
+                    </section>
+                    <section class="header__nav__list">
+                        <ul>
+                            <li class="header__nav__item">Features</li>
+                            <li class="header__nav__item">About</li>
+                            <li class="header__nav__item">Pricing</li>
+                            <li class="header__nav__item">Reviews</li>
+                            <li class="header__nav__item">Contact</li>
+                        </ul>
+                    </section>
+                </nav>
             </section>
-            <ul class="menu">
-                <li class="menu__item">About</li>
-                <li class="menu__item">About</li>
-                <li class="menu__item">About</li>
-                <li class="menu__item">About</li>
-                <li class="menu__item">About</li>
-            </ul>
-        </section>
-    </article>
-    <header class="header">
-        <section class="wrapper">
-            <section class="content-info">
-                <section class="logo">
-                    <p class="logo__text logo__text_fs-6">ax<span class="logo__text_it">it</span></p>
-                    <h1 class="title title_white">MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES</h1>
-                    <div class="line line_white line_margin-2"></div>
-                    <p class="description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem adipisci laudantium quibusdam aut incidunt ullam at saepe accusamus ratione, nisi, architecto officiis nemo!</p>
-                    <button class="btn-download">Download</button>
+            <article class="header__body">
+                <section class="page">
+                    <section class="content-info">
+                        <section class="logo">
+                            <p class="logo__text logo__text_fs-6">ax<span class="logo__text_it">it</span></p>
+                            <h1 class="title title_white">MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES</h1>
+                            <div class="line line_white line_margin-2"></div>
+                            <p class="description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem adipisci laudantium quibusdam aut incidunt ullam at saepe accusamus ratione, nisi, architecto officiis nemo!</p>
+                            <button class="button">Download</button>
+                        </section>
+                    </section>
+                    <form class="form">
+                        <h1 class="form__title">Try Your <span class="orange">FREE</span> Trial Today</h1>
+                        <input class="form__input" type="text" placeholder="Name">
+                        <input class="form__input" type="email" placeholder="Email">
+                        <input class="form__input form__input_border_none" type="password" placeholder="Password">
+                        <button class="form__btn">Get Started</button>
+                    </form>                        
+                </section>
+            </article>
+            <footer class="footer__head">
+                <section class="footer__section">
+                    <section class="fotter__head__section">
+                        <h3 class="footer__head__title">Social Media</h3>
+                        <p class="footer__head__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet.</p>
+                    </section>
+                    <section class="footer__head__svg">
+                        <?xml version="1.0" encoding="iso-8859-1"?>
+                        <svg class="svg__gray" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 368 368" style="enable-background:new 0 0 368 368;" xml:space="preserve" fill="#fff">
+	 
+<g>
+	<g>
+		<path d="M312,0H56C25.128,0,0,25.12,0,56v96v160c0,30.88,25.128,56,56,56h256c30.872,0,56-25.12,56-56V152V56
+			C368,25.12,342.872,0,312,0z M352,312c0,22.056-17.944,40-40,40H56c-22.056,0-40-17.944-40-40V160h66.8
+			c-0.152,0.648-0.208,1.312-0.344,1.96c-0.576,2.656-1.056,5.328-1.416,8.032c-0.144,1.04-0.296,2.08-0.4,3.136
+			C80.256,176.72,80,180.336,80,184c0,57.344,46.656,104,104,104s104-46.656,104-104c0-3.664-0.256-7.288-0.632-10.888
+			c-0.104-1.04-0.256-2.064-0.4-3.096c-0.368-2.744-0.848-5.456-1.44-8.144c-0.136-0.624-0.184-1.264-0.336-1.88H352V312z M96,184
+			c0-10.128,1.696-19.984,5.072-29.344C113.416,119.568,146.744,96,184,96c4.656,0,9.256,0.368,13.752,1.08
+			c29.256,4.64,54.512,23.84,66.632,51.168c0.928,2.088,1.776,4.224,2.544,6.408c0,0.008,0.008,0.008,0.008,0.016
+			c0.008,0.016,0.008,0.024,0.016,0.04C270.304,164.016,272,173.872,272,184c0,48.52-39.48,88-88,88C135.48,272,96,232.52,96,184z
+			 M352,144h-72.024c-0.168-0.4-0.368-0.776-0.536-1.176c-0.48-1.128-1.008-2.224-1.528-3.32c-0.608-1.296-1.224-2.584-1.888-3.84
+			c-0.568-1.088-1.176-2.152-1.776-3.208c-0.696-1.216-1.4-2.424-2.136-3.608c-0.656-1.048-1.336-2.072-2.024-3.088
+			c-0.768-1.136-1.552-2.264-2.368-3.368c-0.736-1-1.488-1.976-2.256-2.944c-0.848-1.064-1.712-2.12-2.592-3.144
+			c-0.8-0.936-1.624-1.856-2.456-2.76c-0.92-0.992-1.856-1.968-2.808-2.928c-0.872-0.872-1.752-1.736-2.656-2.576
+			c-0.984-0.92-2-1.816-3.016-2.696c-0.928-0.8-1.856-1.592-2.816-2.36c-1.056-0.848-2.136-1.664-3.224-2.472
+			c-0.984-0.728-1.96-1.456-2.968-2.144c-1.12-0.768-2.264-1.504-3.416-2.224c-1.024-0.648-2.048-1.304-3.096-1.912
+			c-1.184-0.688-2.392-1.336-3.6-1.976c-1.064-0.568-2.128-1.144-3.216-1.68c-1.248-0.608-2.512-1.16-3.784-1.72
+			c-1.096-0.48-2.184-0.984-3.296-1.424c-1.312-0.528-2.656-0.984-4-1.464c-1.104-0.392-2.2-0.8-3.32-1.16
+			c-1.408-0.44-2.832-0.808-4.264-1.192c-1.096-0.296-2.176-0.616-3.28-0.88c-1.52-0.352-3.064-0.624-4.6-0.912
+			c-1.04-0.192-2.072-0.432-3.12-0.592c-1.728-0.272-3.488-0.44-5.24-0.624c-0.888-0.088-1.76-0.232-2.656-0.304
+			C189.368,80.112,186.696,80,184,80c-2.696,0-5.368,0.112-8.024,0.32c-0.896,0.072-1.768,0.208-2.656,0.304
+			c-1.752,0.184-3.504,0.352-5.232,0.624c-1.064,0.168-2.096,0.4-3.152,0.6c-1.528,0.288-3.064,0.552-4.568,0.904
+			c-1.128,0.264-2.224,0.592-3.336,0.896c-1.408,0.376-2.816,0.744-4.2,1.176c-1.144,0.36-2.256,0.784-3.384,1.176
+			c-1.312,0.464-2.632,0.92-3.928,1.432c-1.144,0.456-2.264,0.968-3.392,1.464c-1.232,0.544-2.472,1.08-3.68,1.672
+			c-1.136,0.552-2.24,1.152-3.352,1.744c-1.16,0.616-2.312,1.232-3.448,1.896c-1.104,0.648-2.184,1.336-3.264,2.016
+			c-1.088,0.688-2.168,1.376-3.232,2.104c-1.072,0.736-2.112,1.504-3.16,2.28c-1.016,0.752-2.024,1.512-3.016,2.304
+			c-1.032,0.824-2.032,1.68-3.032,2.544c-0.944,0.816-1.872,1.64-2.784,2.488c-0.976,0.912-1.928,1.84-2.872,2.784
+			c-0.872,0.88-1.736,1.768-2.576,2.68c-0.912,0.984-1.8,1.984-2.68,3.008c-0.808,0.944-1.6,1.904-2.376,2.88
+			c-0.832,1.048-1.648,2.104-2.448,3.184c-0.752,1.016-1.472,2.056-2.184,3.104c-0.744,1.096-1.48,2.2-2.184,3.336
+			c-0.688,1.104-1.344,2.232-1.992,3.36s-1.288,2.256-1.896,3.416c-0.64,1.216-1.232,2.464-1.824,3.712
+			c-0.528,1.12-1.064,2.24-1.56,3.384c-0.176,0.408-0.384,0.792-0.552,1.2H16V56c0-22.056,17.944-40,40-40h256
+			c22.056,0,40,17.944,40,40V144z"/>
+	</g>
+</g>
+<g>
+	<g>
+		<path d="M184,128c-30.872,0-56,25.12-56,56s25.128,56,56,56s56-25.12,56-56S214.872,128,184,128z M184,224
+			c-22.056,0-40-17.944-40-40c0-22.056,17.944-40,40-40c22.056,0,40,17.944,40,40C224,206.056,206.056,224,184,224z"/>
+	</g>
+</g>
+<g>
+	<g>
+		<path d="M312,48h-24c-4.424,0-8,3.584-8,8v24c0,4.416,3.576,8,8,8h24c4.424,0,8-3.584,8-8V56C320,51.584,316.424,48,312,48z
+			 M304,72h-8v-8h8V72z"/>
+	</g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+                        </svg>
+                        <svg class="svg__gray" viewBox="-110 1 511 511.99996" xmlns="http://www.w3.org/2000/svg" fill="#fff"><path d="m180 512h-81.992188c-13.695312 0-24.835937-11.140625-24.835937-24.835938v-184.9375h-47.835937c-13.695313 0-24.835938-11.144531-24.835938-24.835937v-79.246094c0-13.695312 11.140625-24.835937 24.835938-24.835937h47.835937v-39.683594c0-39.347656 12.355469-72.824219 35.726563-96.804688 23.476562-24.089843 56.285156-36.820312 94.878906-36.820312l62.53125.101562c13.671875.023438 24.792968 11.164063 24.792968 24.835938v73.578125c0 13.695313-11.136718 24.835937-24.828124 24.835937l-42.101563.015626c-12.839844 0-16.109375 2.574218-16.808594 3.363281-1.152343 1.308593-2.523437 5.007812-2.523437 15.222656v31.351563h58.269531c4.386719 0 8.636719 1.082031 12.289063 3.121093 7.878906 4.402344 12.777343 12.726563 12.777343 21.722657l-.03125 79.246093c0 13.6875-11.140625 24.828125-24.835937 24.828125h-58.46875v184.941406c0 13.695313-11.144532 24.835938-24.839844 24.835938zm-76.8125-30.015625h71.632812v-193.195313c0-9.144531 7.441407-16.582031 16.582032-16.582031h66.726562l.027344-68.882812h-66.757812c-9.140626 0-16.578126-7.4375-16.578126-16.582031v-44.789063c0-11.726563 1.191407-25.0625 10.042969-35.085937 10.695313-12.117188 27.550781-13.515626 39.300781-13.515626l36.921876-.015624v-63.226563l-57.332032-.09375c-62.023437 0-100.566406 39.703125-100.566406 103.609375v53.117188c0 9.140624-7.4375 16.582031-16.578125 16.582031h-56.09375v68.882812h56.09375c9.140625 0 16.578125 7.4375 16.578125 16.582031zm163.0625-451.867187h.003906zm0 0"/></svg>
+                        <?xml version="1.0" encoding="iso-8859-1"?>
+                        <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+                        <svg class="svg__gray" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                            width="96.669px" height="96.669px" viewBox="0 0 96.669 96.669" style="enable-background:new 0 0 96.669 96.669;"
+                            xml:space="preserve" fill="#fff">
+                        <g>
+                            <g>
+                                <path d="M50.91,55.189l-4.533-3.522c-1.38-1.144-3.27-2.656-3.27-5.422c0-2.778,1.889-4.544,3.527-6.18
+                                    c5.279-4.157,10.557-8.581,10.557-17.903c0-9.586-6.031-14.629-8.923-17.022h7.795L64.244,0H39.459
+                                    C32.658,0,22.856,1.608,15.68,7.533c-5.408,4.666-8.046,11.099-8.046,16.892c0,9.831,7.548,19.798,20.88,19.798
+                                    c1.259,0,2.636-0.124,4.022-0.252c-0.623,1.515-1.252,2.777-1.252,4.917c0,3.905,2.006,6.299,3.774,8.567
+                                    c-5.663,0.39-16.237,1.018-24.033,5.809c-7.424,4.415-9.684,10.84-9.684,15.377c0,9.334,8.8,18.028,27.045,18.028
+                                    c21.636,0,33.089-11.971,33.089-23.823C61.477,64.139,56.447,59.854,50.91,55.189z M34.431,40.691
+                                    c-10.824,0-15.727-13.992-15.727-22.434c0-3.288,0.623-6.682,2.763-9.333C23.486,6.4,27,4.762,30.281,4.762
+                                    c10.434,0,15.846,14.118,15.846,23.197c0,2.271-0.251,6.296-3.144,9.207C40.96,39.187,37.574,40.691,34.431,40.691z
+                                    M34.555,91.387c-13.46,0-22.139-6.438-22.139-15.392c0-8.949,8.048-11.978,10.816-12.979c5.281-1.777,12.076-2.024,13.21-2.024
+                                    c1.258,0,1.887,0,2.889,0.126c9.568,6.81,13.721,10.203,13.721,16.65C53.053,85.573,46.635,91.387,34.555,91.387z"/>
+                                <polygon points="82.679,40.499 82.679,27.894 76.455,27.894 76.455,40.499 63.869,40.499 63.869,46.793 76.455,46.793 
+                                    76.455,59.477 82.679,59.477 82.679,46.793 95.328,46.793 95.328,40.499 		"/>
+                            </g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        </svg>
+                        <?xml version="1.0" encoding="iso-8859-1"?>
+                        <svg class="svg__gray" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve" fill="#fff">
+<g>
+	<g>
+		<path d="M256,0C115.2,0,0,115.2,0,256c0,101.547,60.587,193.707,153.6,234.667l11.093,5.973l-0.853-13.653
+			c-0.853-21.333,0.853-39.253,4.267-54.613c4.267-20.48,31.573-134.827,31.573-134.827l0.853-3.413l-1.707-2.56
+			c0,0-6.827-13.653-6.827-34.987c0-30.72,17.067-55.467,39.253-55.467c23.04,0,24.747,22.187,24.747,29.013
+			c0,12.8-5.973,30.72-11.947,50.347c-3.413,11.093-7.68,23.04-10.24,34.987c-3.413,14.507,0,29.013,8.533,40.107
+			c9.387,11.093,23.893,17.92,39.253,17.92c49.493,0,87.04-59.733,87.04-139.947c0-62.293-44.373-103.253-111.787-103.253
+			c-74.24,0-130.56,54.613-130.56,127.147c0,21.333,5.973,39.253,17.92,53.76c2.56,2.56,2.56,3.413,2.56,3.413
+			c0,0.853,0,0.853-0.853,3.413v1.707c-0.853,5.12-3.413,13.653-4.267,17.92c0,0.853,0,0.853,0,0.853H140.8
+			c-29.013-11.947-45.227-43.52-45.227-87.04c0-100.693,98.133-145.92,168.107-145.92c93.013,0,148.48,67.413,148.48,133.12
+			c0,94.72-51.2,161.28-124.587,161.28c-24.747,0-46.08-13.653-52.907-26.453l-10.24-19.627l-5.12,21.333
+			c0,0-14.507,56.32-17.067,67.413c-4.267,14.507-11.947,31.573-23.893,50.347l-5.973,9.387l11.093,3.413
+			C207.36,508.587,231.253,512,256,512c140.8,0,256-115.2,256-256S396.8,0,256,0z M256,494.933c-19.627,0-38.4-2.56-57.173-6.827
+			c9.387-16.213,16.213-31.573,20.48-43.52c2.56-7.68,9.387-34.133,13.653-52.053c13.653,11.947,35.84,20.48,56.32,20.48
+			c81.92,0,141.653-75.093,141.653-178.347c0-73.387-62.293-150.187-165.547-150.187c-70.827,0-114.347,29.013-138.24,53.76
+			c-29.867,29.867-46.933,69.973-46.933,109.227c0,49.493,21.333,87.893,56.32,102.4c5.12,2.56,10.24,2.56,14.507,0
+			c5.12-2.56,7.68-6.827,9.387-11.947c0.853-4.267,2.56-13.653,4.267-18.773v-1.707c2.56-9.387,0.853-14.507-5.12-21.333
+			c-10.24-11.093-14.507-24.747-14.507-42.667c0-71.68,58.88-110.08,113.493-110.08c58.88,0,94.72,33.28,94.72,86.187
+			c0,69.973-29.867,122.88-69.973,122.88c-10.24,0-19.627-4.267-25.6-11.947c-5.12-6.827-7.68-16.213-5.12-25.6
+			c2.56-11.093,5.973-23.04,9.387-34.133c6.827-20.48,12.8-40.107,12.8-55.467c0-27.307-17.067-46.08-41.813-46.08
+			c-31.573,0-56.32,31.573-56.32,72.533c0,19.627,5.12,34.133,7.68,40.107c-4.267,17.92-27.307,114.347-31.573,132.267
+			c-3.413,12.8-5.12,28.16-5.12,45.227C68.267,428.373,17.067,346.453,17.067,256c0-131.413,107.52-238.933,238.933-238.933
+			S494.933,124.587,494.933,256S387.413,494.933,256,494.933z"/>
+	</g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+                        </svg>
+                        <?xml version="1.0" encoding="iso-8859-1"?>
+                        <svg class="svg__gray" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 512.001 512.001" style="enable-background:new 0 0 512.001 512.001;" xml:space="preserve" fill="#fff"> 
+<g>
+	<g>
+		<path d="M268.662,243.351c-3.91-3.91-10.24-3.91-14.15,0c-3.9,3.9-3.9,10.23,0,14.14c3.91,3.9,10.24,3.9,14.15,0
+			C272.562,253.581,272.562,247.251,268.662,243.351z"/>
+	</g>
+</g>
+<g>
+	<g>
+		<path d="M395.933,116.07c-19.54-19.539-51.172-19.54-70.713,0c-19.489,19.489-19.49,51.209,0.003,70.714
+			c19.496,19.484,51.216,19.492,70.71-0.002C415.471,167.244,415.475,135.611,395.933,116.07z M381.791,172.639
+			c-11.693,11.694-30.727,11.694-42.426,0.002c-11.695-11.702-11.696-30.736-0.002-42.429c11.723-11.723,30.703-11.725,42.428,0
+			C393.514,141.934,393.516,160.915,381.791,172.639z"/>
+	</g>
+</g>
+<g>
+	<g>
+		<path d="M509.07,2.929c-1.964-1.963-4.644-3.027-7.43-2.922c-2.261,0.081-56.096,2.245-120.091,24.864
+			c-51.28,18.106-94.023,44.029-127.042,77.049c-7.399,7.399-14.599,15.245-21.488,23.396c-32.648-19.218-58.81-13.192-75.349-4.341
+			c-38.081,20.38-61.652,75.716-61.652,115.296c0.003,4.044,2.44,7.691,6.176,9.238c1.237,0.513,2.537,0.762,3.825,0.762
+			c2.603,0,5.16-1.017,7.073-2.929c20.083-20.083,44.854-18.827,52.946-17.763l3.502,3.502c-6.892,16.4-12.444,32.708-16.516,48.569
+			c-1.47,5.74-0.974,11.814,1.211,17.37c-9.628,4.437-18.917,10.952-27.005,19.04c-25.741,25.742-30.968,88.476-31.178,91.134
+			c-0.23,2.917,0.828,5.789,2.897,7.858c1.883,1.882,4.43,2.929,7.07,2.929c0.262,0,0.525-0.01,0.788-0.031
+			c2.658-0.209,65.394-5.436,91.135-31.177c8.085-8.085,14.599-17.373,19.036-26.999c5.882,2.313,11.936,2.598,17.38,1.203
+			c15.854-4.071,32.16-9.621,48.562-16.514l3.502,3.502c1.063,8.093,2.319,32.864-17.763,52.945
+			c-2.859,2.86-3.715,7.161-2.167,10.897c1.547,3.737,5.193,6.173,9.238,6.173c39.58,0,94.915-23.571,115.295-61.652
+			c8.851-16.537,14.877-42.699-4.341-75.348c8.147-6.886,15.994-14.086,23.396-21.488c33.02-33.02,58.942-75.763,77.048-127.039
+			c22.62-63.998,24.783-117.834,24.864-120.094C512.092,7.584,511.033,4.893,509.07,2.929z M118.376,214.762
+			c6.212-30.063,24.255-63.052,48.735-76.154c16.359-8.754,34.24-7.896,53.252,2.511c-16.197,21.302-30.278,44.252-42.015,68.487
+			c-0.149-0.092-1.949-2.355-5.293-3.109C171.68,206.186,145.221,200.495,118.376,214.762z M183.8,370.63
+			c-13.75,13.75-46.005,21.002-66.392,23.963c2.962-20.388,10.215-52.642,23.964-66.391c7.7-7.7,16.628-13.538,25.602-16.826
+			l33.652,33.652C197.338,354.002,191.501,362.93,183.8,370.63z M229.39,339.603c-2.894,0.741-6.246-0.347-8.738-2.835
+			c-12.937-12.937-17.998-17.998-19.586-19.585c-2.912-2.912-10.053-10.053-25.826-25.827c-2.494-2.499-3.582-5.85-2.843-8.739
+			c3.203-12.474,7.392-25.272,12.486-38.193l82.695,82.695C254.655,332.214,241.859,336.402,229.39,339.603z M373.394,344.891
+			c-13.102,24.479-46.09,42.523-76.152,48.734c9.585-18.037,11.698-40.998,8.196-54.921c-0.813-3.234-2.923-4.86-3.041-5.051
+			c24.233-11.737,47.182-25.818,68.486-42.015C381.29,310.652,382.147,328.535,373.394,344.891z M395.94,243.35
+			c-9.011,9.01-18.714,17.715-28.84,25.872c-24.342,19.6-51.134,36.202-79.718,49.418l-94.02-94.018
+			c13.216-28.586,29.818-55.378,49.416-79.717c8.164-10.133,16.868-19.837,25.875-28.843
+			c29.625-29.626,67.859-53.204,113.671-70.176l83.792,83.792C449.146,175.489,425.568,213.723,395.94,243.35z M473.311,108.587
+			l-69.896-69.896c38.081-11.828,71.21-16.257,87.746-17.849C489.568,37.381,485.138,70.51,473.311,108.587z"/>
+	</g>
+</g>
+<g>
+	<g>
+		<path d="M240.371,413.049c-3.907-3.905-10.239-3.903-14.143,0.002l-28.28,28.29c-3.904,3.906-3.903,10.238,0.002,14.142
+			c3.907,3.904,10.239,3.904,14.143-0.002l28.28-28.29C244.277,423.285,244.276,416.953,240.371,413.049z"/>
+	</g>
+</g>
+<g>
+	<g>
+		<path d="M98.954,271.631c-3.904-3.906-10.235-3.906-14.142-0.002l-28.29,28.28c-3.906,3.904-3.907,10.236-0.003,14.142
+			c3.903,3.904,10.234,3.908,14.142,0.002l28.29-28.28C102.857,281.869,102.858,275.537,98.954,271.631z"/>
+	</g>
+</g>
+<g>
+	<g>
+		<path d="M169.663,427.2c-3.903-3.905-10.236-3.905-14.142-0.001l-67.74,67.73c-3.906,3.905-3.906,10.237-0.001,14.142
+			c3.903,3.905,10.236,3.907,14.142,0.001l67.74-67.73C173.568,437.437,173.568,431.105,169.663,427.2z"/>
+	</g>
+</g>
+<g>
+	<g>
+		<path d="M89.663,427.2c-3.904-3.905-10.237-3.905-14.142-0.001l-67.74,67.73c-3.906,3.905-3.906,10.237-0.001,14.142
+			c3.903,3.905,10.236,3.907,14.142,0.001l67.74-67.73C93.568,437.437,93.568,431.105,89.663,427.2z"/>
+	</g>
+</g>
+<g>
+	<g>
+		<path d="M84.802,342.338c-3.904-3.904-10.237-3.904-14.142,0.001l-67.73,67.74c-3.905,3.906-3.905,10.237,0.001,14.143
+			c3.905,3.905,10.237,3.905,14.142-0.001l67.73-67.74C88.708,352.575,88.708,346.244,84.802,342.338z"/>
+	</g>
+</g>
+<g>
+	<g>
+		<path d="M311.083,200.919c-3.906-3.905-10.236-3.905-14.143,0l-14.14,14.14c-3.905,3.905-3.905,10.237,0,14.143
+			c3.906,3.905,10.237,3.905,14.143,0l14.14-14.14C314.988,211.157,314.988,204.825,311.083,200.919z"/>
+	</g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+                        </svg>
+                        <?xml version="1.0" encoding="iso-8859-1"?>
+                        <svg class="svg__gray" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve" fill="#fff">
+<path style="fill:#EBF0FA;" d="M135.876,280.962L10.105,225.93c-14.174-6.197-13.215-26.621,1.481-31.456L489.845,36.811
+	c12.512-4.121,24.705,7.049,21.691,19.881l-95.571,406.351c-2.854,12.14-17.442,17.091-27.09,9.19l-112.3-91.887L135.876,280.962z"
+	/>
+<path style="fill:#BEC3D2;" d="M396.465,124.56L135.876,280.962l31.885,147.899c2.86,13.269,18.5,19.117,29.364,10.981
+	l79.451-59.497l-65.372-53.499l193.495-191.693C410.372,129.532,403.314,120.449,396.465,124.56z"/>
+<path style="fill:#AFB4C8;" d="M178.275,441.894c5.858,2.648,13.037,2.302,18.85-2.052l79.451-59.497l-32.686-26.749l-32.686-26.749
+	L178.275,441.894z"/>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+                        </svg>
+                        <?xml version="1.0" encoding="iso-8859-1"?>
+                        <svg class="svg__gray" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 512.002 512.002" style="enable-background:new 0 0 512.002 512.002;" xml:space="preserve" fill="#fff">
+	
+<g>
+	<g>
+		<path d="M511.884,196.995c-0.783-6.23-5.364-11.312-11.479-12.737l-51.31-11.954c-5.119-26.495-15.21-48.165-30.044-64.49
+			c-20.976-23.084-50.612-34.788-88.086-34.788c-34.949,0-61.21,11.191-78.057,33.263c-21.265,27.861-21.353,66.23-18.466,90.957
+			c-43.309-12.794-112.382-40.216-125.825-77.02c-2.107-5.768-7.516-9.669-13.655-9.847c-6.14-0.189-11.764,3.404-14.202,9.04
+			c-19.074,44.106-18.733,91.348,0.99,136.619c2.718,6.239,5.629,12.037,8.573,17.348l-70.848-22.143
+			c-4.826-1.509-10.086-0.484-13.994,2.725s-5.936,8.17-5.395,13.197c0.19,1.767,4.982,43.751,33.152,85.933
+			c26.163,39.177,77.986,85.877,176.294,85.877c50.13,0,95.179-12.765,133.896-37.939c29.099-18.921,54.183-44.49,74.555-75.996
+			c16.86-26.074,28.004-55.333,32.464-85.089l53.468-27.773C509.488,209.284,512.667,203.225,511.884,196.995z M429.665,216.941
+			c-4.454,2.313-7.455,6.7-7.998,11.689c-3.034,27.893-13.02,55.599-28.876,80.121c-29.565,45.722-85.358,100.224-183.259,100.224
+			c-67.799,0-118.5-24.078-150.691-71.566C46.707,319.51,39.504,301.39,35.32,287.626l88.568,27.682
+			c6.57,2.056,13.7-0.631,17.284-6.511c3.583-5.881,2.702-13.447-2.137-18.346c-0.616-0.624-54.484-56.324-39.737-130.489
+			c16.752,17.822,42.607,34.074,77.312,48.553c37.665,15.713,72.008,23.545,73.451,23.871c5.13,1.157,10.485-0.467,14.125-4.262
+			c3.638-3.795,5.022-9.229,3.651-14.305c-0.155-0.575-15.228-57.796,8.965-89.39c11.028-14.401,28.744-21.402,54.161-21.402
+			c51.836,0,81.172,26.41,89.681,80.729c0.145,0.929,0.273,1.858,0.402,2.788l0.021,0.152c0.851,6.151,5.406,11.142,11.455,12.551
+			l21.543,5.019L429.665,216.941z"/>
+	</g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+                        </svg>
+                    </section>
+                </section>
+            </footer>
+        </header>
+
+        <article class="body">
+            <section class="body__section">
+                <section class="body__heading">
+                    <h1 class="body__heading__title .title">WHY THIS IS AWESOME</h1>
+                    <section class="body__heading__line"></section>
+                    <p class="body__heading__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </section>
             </section>
-            <form action="" class="form"></form>
-        </section>
-    </header> -->
-    <form action="">
-        <input type="text" placeholder="enter id" value="qwerty" readonly tabindex="3">
-        <input type="checkbox" placeholder="enter id" required tabindex="0">  <!-- обязательно для заполнения -->
-        <input type="checkbox" placeholder="enter id"checked tabindex="2">
-        <input type="checkbox" placeholder="enter id" tabindex="1">
-        <input type="radio" placeholder="enter id" tabindex="5">
-        <input type="range" placeholder="enter id">
+            <section class="awesome">
+                <section class="body__column">
+                    <section class="body__column__square"></section>
+                    <h2 class="body__column__title">Thoughtful Design</h2>
+                    <p class="body__column__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus alias consequatur possimus, suscipit, repudiandae laboriosam voluptatibus debitis at incidunt, sed blanditiis obcaecati aspernatur.</p>
+                </section>
+                <section class="body__column body__column_mr-l-r">
+                    <section class="body__column__square body__column__square_img__keyboard"></section>
+                    <h2 class="body__column__title">Well Crafted</h2>
+                    <p class="body__column__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus alias consequatur possimus, suscipit, repudiandae laboriosam voluptatibus debitis at incidunt, sed blanditiis obcaecati aspernatur.</p>
+                </section>
+                <section class="body__column">
+                    <section class="body__column__square body__column__square_img__lightning"></section>
+                    <h2 class="body__column__title">Easy to Customize</h2>
+                    <p class="body__column__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus alias consequatur possimus, suscipit, repudiandae laboriosam voluptatibus debitis at incidunt, sed blanditiis obcaecati aspernatur.</p>
+                </section>
+            </section>
+        </article>
 
-        <label for="try"
-            >ID
-            <input id="try" type="text" placeholder="enter id">
-        </label>
-        <label for="try">ID</label>
-        <input id="try" type="text" placeholder="enter id">
+        <article class="wrapper"> 
+            <section class="wrapper__section">
+                <header class="wrapper__head">
+                    <h1 class="wrapper__head__title title">PRICING OPTIONS</h1>
+                    <section class="wrapper__head__line"></section>
+                    <p class="wrapper__head__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </header>
+                <section class="wrapper__list_position">
+                    <ul class="wrapper__list">
+                        <li class="wrapper__item__price">Basic</li>
+                        <li class="wrapper__item__price wrapper__item__price__money"><span class="wrapper__item__price_small__d">$</span>0</li>
+                        <li class="wrapper__item__price wrapper__item__price__italic">Free for Life</li>
+                        <li class="wrapper__item__line"></li>
+                        <li class="wrapper__item__text">1 gb of space</li>
+                        <li class="wrapper__item__text">10 gb of bandwidth</li>
+                        <li class="wrapper__item__text">3 websites</li>
+                        <li class="wrapper__item__text">Basic Customization</li>
+                        <li class="wrapper__item__text">wordpress integration</li>
+                        <li class="wrapper__item__text">email support</li>
+                    </ul>
+                    <ul class="wrapper__list wrapper__list__mr-l-r">
+                        <li class="wrapper__item__price">Professional</li>
+                        <li class="wrapper__item__price wrapper__item__price__money"><span class="wrapper__item__price_small__d">$</span>19</li>
+                        <li class="wrapper__item__price wrapper__item__price__italic">Monthly Payment</li>
+                        <li class="wrapper__item__line wrapper__item__line__text">OUR MOST POPULAR</li>
+                        <li class="wrapper__item__text">5 gb of space</li>
+                        <li class="wrapper__item__text">50 gb of bandwidth</li>
+                        <li class="wrapper__item__text">12 websites</li>
+                        <li class="wrapper__item__text">Advanced Customization</li>
+                        <li class="wrapper__item__text">wordpress integration</li>
+                        <li class="wrapper__item__text">email support</li>
+                    </ul>
+                    <ul class="wrapper__list">
+                        <li class="wrapper__item__price">Enterprise</li>
+                        <li class="wrapper__item__price wrapper__item__price__money"><span class="wrapper__item__price_small__d">$</span>70</li>
+                        <li class="wrapper__item__price wrapper__item__price__italic">Monthly Payment</li>
+                        <li class="wrapper__item__line"></li>
+                        <li class="wrapper__item__text">Unlimited space</li>
+                        <li class="wrapper__item__text">unlimited bandwidth</li>
+                        <li class="wrapper__item__text">100 websites</li>
+                        <li class="wrapper__item__text">Advanced Customization</li>
+                        <li class="wrapper__item__text">wordpress integration</li>
+                        <li class="wrapper__item__text">24/7 customer support</li>
+                    </ul>
+                </section>
+            </section>
+        </article>
 
-        <textarea maxlength="20">
+        <article class="card">
+            <h1 class="card__title">STYLISH AXURE DESIGN</h1>
+            <section class="card__line"></section>
+            <p class="card__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde voluptatem ad doloremque, nobis excepturi repellendus! At!</p>
+            <button class="card__button" type="submit">Download</button>
+        </article>
+        <article class="contact">
+            <section class="contact__section">
+                <header class="contact__head">
+                    <h1 class="contact__head__title title">CONTACT US</h1>
+                    <section class="contact__head__line"></section>
+                    <p class="contact__head__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </header>
+                    <form class="contact__form__user">
+                        <section class="sec_cont">
+                            <input class="contact__input contact__input__name" type="text" placeholder="Name">
+                            <input class="contact__input" type="text" placeholder="Email">
+                            <input class="contact__input" type="text" placeholder="Subject">
+                        </section>
+                        <section class="sec_mess">
+                            <textarea class="contact__input" cols="400" maxlength="500" placeholder="Message"></textarea>
+                        </section>
+                        <button class="contact__button" type="reset">Send Message</button>
+                    </form>
+            </section>
+        </article>
 
-        </textarea>
-
-        <select name="" id="">
-            <option value="">пункт 1</option>
-            <option value="">пункт 2</option>
-            <option value="">пункт 3</option>
-            <option value="">пункт 4</option>
-            <option value="">пункт 5</option>
-        </select>
-       <button type="submit">submit</button>
-       <button type="reset">reset</button>
-    </form>
-
-    <ul>
-        <li>Lorem ipsum dolor sit amet.</li>
-        <li>Lorem, ipsum dolor.</li>
-        <li>Lorem ipsum dolor sit.</li>
-        <li>Lorem ipsum dolor sit amet consectetur.</li>
-        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-    </ul>
-
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio tenetur nobis consequuntur nostrum vero. lorem3587</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio tenetur nobis consequuntur nostrum vero. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem incidunt recusandae illum debitis, possimus provident adipisci nulla autem libero quisquam eos iusto veniam vitae minus nemo repudiandae reprehenderit placeat dicta temporibus at? Eius officiis id numquam nemo ducimus voluptas modi, consequuntur magnam dolores quos provident omnis laboriosam magni quaerat labore ut qui facilis, et, esse pariatur? Sit velit esse ad consequatur ab, eligendi molestias accusantium assumenda impedit aliquid culpa dicta quaerat. Molestiae excepturi obcaecati consequatur possimus magnam repudiandae voluptatibus ad enim ab aliquid corporis, incidunt expedita temporibus inventore nobis veniam, fugit dolore ducimus, minus architecto? Voluptatibus temporibus, nemo voluptatum amet suscipit natus, id nostrum ex eaque iusto facere laudantium. Omnis maiores aliquid corrupti est repudiandae asperiores voluptas, dolores laborum labore harum ad odit magni assumenda. Porro, nesciunt expedita eligendi saepe alias mollitia. Officia et, sint dolorum ipsa corrupti necessitatibus aperiam itaque, dolore saepe facere ullam? Nesciunt impedit omnis, minima hic eaque labore consequuntur illum ipsa. Aliquam obcaecati in, officiis ab, repudiandae minima doloribus veniam nesciunt, corporis aut accusamus culpa laborum! Dicta deserunt deleniti fugiat quibusdam atque laudantium iusto error nulla culpa asperiores a reprehenderit labore sit eum facere debitis voluptatum ea delectus alias reiciendis, dolorem voluptatem. Perspiciatis voluptatem tenetur ducimus neque magnam distinctio, tempora consequuntur eos, modi, necessitatibus sapiente nulla non cumque odit voluptate blanditiis inventore delectus incidunt architecto vel possimus iure? Similique architecto reiciendis suscipit impedit culpa ipsam dolores voluptas velit, delectus iure.</p>
+        <footer class="fotter">
+            <section class="fotter__icon">
+                <a href="https://www.instagram.com/?hl=ru" target="_blanck"><img src="images/brands-and-logotypes.svg" alt="brands-and-logotypes" class="foote__icon__img" foote__icon__img"></a>
+                <a href="https://web.telegram.org/#/login" target="_blanck"><img src="images/telegram.svg" alt="telegram" class="foote__icon__img"></a>
+                <a href="https://www.facebook.com/" target="_blanck"><img src="images/facebook.svg" alt="facebook" class="foote__icon__img"></a>
+                <a href="https://www.google.ru/" target="_blanck"><img src="images/google-plus.svg" alt="google-plus" class="foote__icon__img"></a>
+                <a href="https://www.pinterest.com/" target="_blanck"><img src="images/pinterest.svg" alt="pinterest" class="foote__icon__img"></a>
+                <a href="https://www.pocketrocket.by/" target="_blanck"><img src="images/rocket.svg" alt="rocket" class="foote__icon__img"></a>
+                <a href="https://twitter.com/explore" target="_blanck"><img src="images/twitter.svg" alt="twitter" class="foote__icon__img"></a>
+            </section>
+            <p class="footer__text">&#169 2015 Axure Themes</p>
+        </footer>
+    </main>
     
-
 </body>
 </html>
