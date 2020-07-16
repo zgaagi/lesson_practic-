@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ol {
+    font-size: 2rem;
+}
+
+/* ol :nth-child(4) {
+    color: red;
+} */
+
+/* ol :nth-child(3n) {
+    color: red;
+} */
+
+ol :nth-child(3n + 2) {
+    color: red;
+}
+
+.text {
+    font-size: 3rem;
+    position: relative;
+}
+
+.text::before {
+    content: "BEFORE ";
+    color: yellow;
+    position: absolute;
+    left: 2rem;
+    top: 2rem;
+}
+.text::after {
+    content: " AFTER ";
+    color: green;
+}
+
+.block  {
+    position: relative;
+    width: 20%;
+    background-color: grey;
+    border-radius: 5px;
+}
+
+.block::before {
+    content: "";
+    top: 55px;
+    left: 5px;
+    border: 20px solid transparent; 
+    border-top: 20px solid gray;
+    position: absolute;
+}
+
+.block_text {
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
