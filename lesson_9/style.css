@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.outline-exmpl {
+    width: 300px;
+    margin: 3rem 0 0 3rem;
+    padding: 1rem 2rem;
+    border: 10px solid red;
+    outline: 15px solid black;
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+
+.outline-exmpl:hover {
+    border: 20px solid black;
+}
+
+.border-exmpl {
+    width: 300px;
+    margin: 3rem 0 0 3rem;
+    padding: 1rem 2rem;
+    border: 10px solid green;
+    outline: 15px solid black;
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+
+.border-exmpl:hover {
+    outline: 30px solid black;
+}
+
+.border-btm-exmpl {
+    width: 300px;
+    margin: 3rem 0 0 3rem;
+    padding: 1rem 2rem;
+    border-bottom: 5px solid transparent;
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+
+.border-btm-exmpl:hover {
+    border-bottom: 5px solid gold;
+}
+
+.overflowtest {
+    background: green;
+    font-size: 2rem;
+    padding: 15px;
+    overflow: auto;
+    width: 50%;
+    height: 200px;
+}
